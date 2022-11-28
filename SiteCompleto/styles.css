@@ -1,0 +1,678 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+body {
+    animation: gradient 10s ease infinite;
+    background: linear-gradient(-80deg, #1D1D1D, #101010, #000, #3F240C) no-repeat;
+    background-size: 300% 300%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.caixa-superior {
+    background-image: url(imagens/banner3.png);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    border-bottom: 6px solid #FF7800;
+
+}
+
+.cabecalho {
+    padding-top: 25px;
+    padding-left: 35px;
+    background: #000000;
+    padding-bottom: 10px;
+    border-bottom: 6px solid #FF7800;
+    height: 90px;
+}
+
+.titulo-cabecalho {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    display: inline;
+    font-family: 'Orbitron', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link-cabecalho {
+    font-size: 14px;
+    color: #ffffff;
+    display: inline;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 58px;
+    color: #000000;
+    position: relative;
+    top: 280px;
+    margin-left: 35px;
+}
+
+form {
+    opacity: 0;
+    transition: opacity 1s linear;
+    background-color: #ffffff;
+    border-radius: 10px;
+    float: right;
+    padding: 20px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 70px;
+    left: 400px;
+    margin-top: 90px;
+}
+
+.mostrar-formulario{
+    opacity: 1;
+}
+
+input {
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+textarea {
+    display: block;
+    height: 80px;
+    width: 250px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.titulo-formulario {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label {
+    font-size: 14px;
+    color: #000000;
+}
+
+.botaoz {
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #40BB15;
+    color: #FFFFFF;
+}
+
+.cor-fundo {
+    background-color: #000000;
+}
+
+.caixa-central {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#titulo-meio {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.batman {
+    width: 100%;
+    border-color: #cf6201;
+    background-color: #FF7800;
+    height: 1px;
+    border-radius: 15px;
+}
+
+#Perifericos {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#Fones {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+#relogio {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+#notebook {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+#celular {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+#caixadesom {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+.card {
+    width: 29vw;
+    height: 25vh;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 2px solid #302d2d;
+    box-shadow: 0 0 50px 10px rgba(34, 30, 27, 0.385), 0 0 50px 20px rgba(45, 35, 18, 0.325);
+}
+
+.card2 {
+    width: 13vw;
+    height: 47vh;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 2px solid #302d2d;
+    box-shadow: 0 0 50px 10px rgba(34, 30, 27, 0.385), 0 0 50px 20px rgba(45, 35, 18, 0.325);
+}
+
+.peri1 {
+    background-image: url(imagens/banner-perifericos.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.peri2 {
+    background-image: url(imagens/banner-fone.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.peri3 {
+    background-image: url(imagens/bannner-relogio.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.peri4 {
+    background-image: url(imagens/banner-notebook.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.peri5 {
+    background-image: url(imagens/banner-smartphone.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.peri6 {
+    background-image: url(imagens/banner-caixasom.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.peri1:hover:hover {
+    width: 30vw;
+    height: 26vh;
+    margin: -1vw;
+    margin: -1vh;
+    border: 2px solid #FFBC3A;
+} 
+
+.peri2:hover {
+    width: 30vw;
+    height: 26vh;
+    margin: -1vw;
+    margin: -1vh;
+    border: 2px solid #FFBC3A;
+} 
+
+.peri3:hover {
+    width: 30vw;
+    height: 26vh;
+    margin: -1vw;
+    margin: -1vh;
+    border: 2px solid #FFBC3A;
+} 
+
+.peri4:hover {
+    width: 30vw;
+    height: 26vh;
+    margin: -1vw;
+    margin: -1vh;
+    border: 2px solid #FFBC3A;
+} 
+
+.peri5:hover {
+    width: 30vw;
+    height: 26vh;
+    margin: -1vw;
+    margin: -1vh;
+    border: 2px solid #FFBC3A;
+} 
+
+.peri6:hover {
+    width: 30vw;
+    height: 26vh;
+    margin: -1vw;
+    margin: -1vh;
+    border: 2px solid #FFBC3A;
+} 
+
+.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10, .item11, .item12, .item13, .item14, .item15, .item16, .item17, .item18, .item19, .item20, .item21, .item22, .item23, .item24 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item1:hover, .item2:hover, .item3:hover, .item4:hover, .item5:hover, .item6:hover, .item7:hover, .item8:hover, .item9:hover, .item10:hover, .item11:hover, .item12:hover, .item13:hover, .item14:hover, .item15:hover, .item16:hover, .item17:hover, .item18:hover, .item19:hover, .item20:hover, .item21:hover, .item22:hover, .item23:hover, .item24:hover {
+    width: 14vw;
+    height: 48vh;
+    margin: -1vw;
+    margin: -1vh;
+    border: 2px solid #FFBC3A;
+}
+
+.item1 {
+    background-image: url(imagens/mouse.png);
+}
+
+.item2 {
+    background-image: url(imagens/microfone.png);
+}
+
+.item3 {
+    background-image: url(imagens/teclado.png);
+}
+
+.item4 {
+    background-image: url(imagens/controle.png);
+}
+
+.item5 {
+    background-image: url(imagens/fone.png);
+}
+
+.item6 {
+    background-image: url(imagens/fone2.png);
+}
+
+.item7 {
+    background-image: url(imagens/fone3.png);
+}
+
+.item8 {
+    background-image: url(imagens/fone4.png);
+}
+
+.item9 {
+    background-image: url(imagens/relogio1.png);
+}
+
+.item10 {
+    background-image: url(imagens/relogio2.png);
+}
+
+.item11 {
+    background-image: url(imagens/relogio3.png);
+}
+
+.item12 {
+    background-image: url(imagens/relogio4.png);
+}
+
+.item13 {
+    background-image: url(imagens/not1.png);
+}
+
+.item14 {
+    background-image: url(imagens/not2.png);
+}
+
+.item15 {
+    background-image: url(imagens/not3.png);
+}
+
+.item16 {
+    background-image: url(imagens/not4.png);
+}
+
+.item17 {
+    background-image: url(imagens/cell1.png);
+}
+
+.item18 {
+    background-image: url(imagens/cell2.png);
+}
+
+.item19 {
+    background-image: url(imagens/cell3.png);
+}
+
+.item20 {
+    background-image: url(imagens/cell4.png);
+}
+
+.item21 {
+    background-image: url(imagens/caixa1.png);
+}
+
+.item22 {
+    background-image: url(imagens/caixa2.png);
+}
+
+.item23 {
+    background-image: url(imagens/caixa3.png);
+}
+
+.item24 {
+    background-image: url(imagens/caixa4.png);
+}
+
+
+.titulo-card {
+    background: rgb(108, 201, 71);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 19px;
+    border-radius: 10px 10px 0 0;
+}
+
+ul {
+    padding: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+#titulo-inferior {
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.paragrafo-inferior {
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 50px 50px 50px;
+}
+
+
+.botao-cabecalho {
+    float: right;
+    display: flex;
+    position: relative;
+    top: -40px;
+}
+
+.btn1 {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #FF7800;
+    border-radius: 0.6em;
+    color: #ffffff;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 1px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+.btn1:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+}
+
+.first {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    margin-right: 20px;
+}
+.first:hover {
+    box-shadow: 0 0 40px 40px #FF7800 inset;
+    padding: 1.3em 2.9em;
+}
+
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: #FF7800 black;   /* scroll thumb and track */
+}
+
+body::-webkit-scrollbar-track {
+    background: black;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #FF7800;    /* color of the scroll thumb */
+    border-radius: 50px;       /* roundness of the scroll thumb */
+    border: 2px solid black;  /* creates padding around scroll thumb */
+}
+
+footer {
+    width: 100%;
+    min-height: 250px;
+    background: #444;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    border-top: 15px solid #FF7800;
+}
+
+footer .boxs {
+    width: 320px;
+    min-height: 150px;
+    padding: 20px;
+}
+
+footer .boxs:nth-child(4) {
+    width: 400px;
+
+}
+
+#sobre-nos {
+    margin-bottom: 20px;
+}
+
+.boxs h2 {
+    color: #fff;
+    margin-bottom: -10px;
+}
+
+.boxs .fot2 .fot1 {
+    margin: 10px 0px 10px -18px;
+    list-style: none;
+}
+
+.boxs .fot2 .fot1 .fot3 {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.boxs .fot2 .fot1 .fot3:hover {
+    color: #fff;
+}
+
+.boxs p {
+    color: #fff;
+    text-align: justify;
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 0px 20px;
+}
+
+.footer .sociais {
+    display: flex;
+}
+
+.footer .social {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #ddd;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.footer .social a {
+    color: #000;
+    font-size: 1.7em;
+}
+
+.sociais .social:hover {
+    background: #444;
+}
+
+.sociais .social:hover a {
+    color: #fff;
+}
+
+.footer2 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #101010;
+    padding: 0px 20px;
+}
+
+.titulo-footer, #sobre-nos {
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+@media(max-width: 950px) {
+    .caixa-central{
+        flex-direction: column;
+        align-items: center;
+    }
+    #titulo-meio {
+        text-align: center;
+    }
+    .card {
+        width: 500px;
+        height: 175px;
+        margin-bottom: 30px;
+    }
+    .card:hover {
+        width: 520px;
+        height: 195px;
+        margin-bottom: 30px;
+    }
+    .card2 {
+        width: 250px;
+        height: 500px;
+        margin-bottom: 30px;
+    }
+    .card2:hover {
+        width: 270px;
+        height: 520px;
+        margin-bottom: 30px;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer .boxs {
+        width: 100%;
+        text-align: center;
+    }
+    footer .boxs:nth-child(4){
+        width: 100%;
+    }
+}
